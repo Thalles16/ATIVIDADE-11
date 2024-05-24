@@ -144,6 +144,13 @@ int main () {
 			system("cls");
 			
 			printf("ALTERACAO DE NOTAS");
+
+			printf("qual aluno voce deseja alterar as notas ?(escolha com numeros(EX:1 para o primeiro e assim adiante))");
+			scanf("%S", resposta);
+			
+			if (resposta ==1){
+				
+				printf("qual nota voce deseja alterar do aluno", nome);
 		}
 	}
 	return 0;
