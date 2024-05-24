@@ -50,11 +50,7 @@ int main () {
 			double nota13, nota14, nota15, nota16;
 			double nota17, nota18, nota19, nota20;
 			
-			double mediaaluno1 = (nota1 + nota2 + nota3 + nota4)/4;
-			double mediaaluno2 = (nota5 + nota6 + nota7 + nota8)/4;
-			double mediaaluno3 = (nota9 + nota10 + nota11 + nota12)/4;
-			double mediaaluno4 = (nota13 + nota14 + nota15 + nota16)/4;
-			double mediaaluno5 = (nota17 + nota18 + nota19 + nota20)/4;
+
 			
 			printf("escreva as notas do primeiro aluno");
 			scanf("%d",nota1);
@@ -123,6 +119,23 @@ int main () {
 			
 			printf("escreva as notas do quinto aluno");
 			scanf("%d",nota20);
+
+			double mediaaluno1 = (nota1 + nota2 + nota3 + nota4)/4;
+			double mediaaluno2 = (nota5 + nota6 + nota7 + nota8)/4;
+			double mediaaluno3 = (nota9 + nota10 + nota11 + nota12)/4;
+			double mediaaluno4 = (nota13 + nota14 + nota15 + nota16)/4;
+			double mediaaluno5 = (nota17 + nota18 + nota19 + nota20)/4;
+
+			
+			printf("a media do primeiro aluno é", mediaaluno1)
+			
+			printf("a media do segundo aluno é", mediaaluno2)
+			
+			printf("a media do terceiro aluno é", mediaaluno3)
+			
+			printf("a media do quarto aluno é", mediaaluno4)
+			
+			printf("a media do quinto aluno é", mediaaluno5)
 			
 			system("pause");
 	
